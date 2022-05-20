@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A540ED5928362EE100AC7D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540ED5828362EE100AC7D55 /* AppDelegate.swift */; };
 		A540ED5B28362EE100AC7D55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540ED5A28362EE100AC7D55 /* SceneDelegate.swift */; };
-		A540ED5D28362EE100AC7D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540ED5C28362EE100AC7D55 /* ViewController.swift */; };
+		A540ED5D28362EE100AC7D55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540ED5C28362EE100AC7D55 /* MainViewController.swift */; };
 		A540ED6028362EE100AC7D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A540ED5E28362EE100AC7D55 /* Main.storyboard */; };
 		A540ED6228362EE400AC7D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A540ED6128362EE400AC7D55 /* Assets.xcassets */; };
 		A540ED6528362EE400AC7D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A540ED6328362EE400AC7D55 /* LaunchScreen.storyboard */; };
+		A5B017182837B3E100E23F6E /* SingletonTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B017172837B3E100E23F6E /* SingletonTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A540ED5528362EE100AC7D55 /* PomodoroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A540ED5828362EE100AC7D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A540ED5A28362EE100AC7D55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A540ED5C28362EE100AC7D55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A540ED5C28362EE100AC7D55 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A540ED5F28362EE100AC7D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A540ED6128362EE400AC7D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A540ED6428362EE400AC7D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A540ED6628362EE400AC7D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B017172837B3E100E23F6E /* SingletonTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				A540ED5828362EE100AC7D55 /* AppDelegate.swift */,
 				A540ED5A28362EE100AC7D55 /* SceneDelegate.swift */,
-				A540ED5C28362EE100AC7D55 /* ViewController.swift */,
+				A540ED5C28362EE100AC7D55 /* MainViewController.swift */,
+				A5B017172837B3E100E23F6E /* SingletonTime.swift */,
 				A540ED5E28362EE100AC7D55 /* Main.storyboard */,
 				A540ED6128362EE400AC7D55 /* Assets.xcassets */,
 				A540ED6328362EE400AC7D55 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A540ED5D28362EE100AC7D55 /* ViewController.swift in Sources */,
+				A540ED5D28362EE100AC7D55 /* MainViewController.swift in Sources */,
 				A540ED5928362EE100AC7D55 /* AppDelegate.swift in Sources */,
 				A540ED5B28362EE100AC7D55 /* SceneDelegate.swift in Sources */,
+				A5B017182837B3E100E23F6E /* SingletonTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
